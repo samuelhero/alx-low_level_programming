@@ -2,7 +2,7 @@
 /**
  * main - writing a code that prints the sizes of variables
  *
- * Return:0
+ * Return: 0 always
  */
 int main(void)
 {
