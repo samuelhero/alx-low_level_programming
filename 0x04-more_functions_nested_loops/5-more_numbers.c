@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * more_numbers - nmbr fct
@@ -14,8 +14,10 @@ int i, j;
 	{
 		for (j = 0; j <= 14; j++)
 		{
-			_putchar(j);
+			if (j >= 10)
+			_putchar('1');
+			_putchar(j % 10 + '0');
 		}
 			_putchar('\n');
-	}
+		}
 }
